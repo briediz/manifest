@@ -1,5 +1,5 @@
-<? version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="https://github.com/briediz/docker" name="origin"/>
-  <default remote="origin" sync-j="4" revision="master"/>
+  <default revision="scarthgap" sync-j="4"/>
+  <remote name="yp"          fetch="https://git.yoctoproject.org"/>
 </manifest>
