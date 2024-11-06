@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <default revision="scarthgap" sync-j="4"/>
-  <remote name="yp"          fetch="https://git.yoctoproject.org"/>
+  <remote name="yp1"          fetch="https://github.com/agherzan/meta-raspberrypi.git"/>
+  <remote name="yp2"          fetch="https://git.yoctoproject.org"/>
 </manifest>
