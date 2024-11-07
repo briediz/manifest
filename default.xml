@@ -4,8 +4,8 @@
   <remote name="yp"      fetch="https://git.yoctoproject.org"/>
   <remote name="pi"      fetch="https://github.com/agherzan"/>
 
-  <project name="poky"                  remote="yp" path="sources/poky" revision="f43f393ef0246b7bee6eed8bcf8271cf2b8cdf40" upstream="scarthgap"/>
-  <project name="meta-raspberrypi.git"  remote="pi" path="sources" revision="d7544f35756d87834e8b4bf3e3e733c771d380ae" upstream="scarthgap"/>
+  <project name="poky"                  remote="yp" path="sources/poky" revision="e4097c55d235a86c571239aa0ebc30d1a86f7f22" upstream="kirkstone"/>
+  <project name="meta-raspberrypi.git"  remote="pi" path="sources" revision="d7544f35756d87834e8b4bf3e3e733c771d380ae" upstream="kirkstone"/>
 
 </manifest>
 
