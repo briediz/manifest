@@ -2,6 +2,9 @@
 <manifest>
   <default revision="scarthgap" sync-j="4"/>
   <remote name="yp"      fetch="https://git.yoctoproject.org"/>
+  <remote name="pi"      fetch="https://github.com/agherzan/meta-raspberrypi.git"/>
+    
   <project name="poky"   remote="yp" path="sources/poky" revision="f43f393ef0246b7bee6eed8bcf8271cf2b8cdf40" upstream="scarthgap"/>
+  <project name="pi"     remote="pi" path="sources" revision="d7544f35756d87834e8b4bf3e3e733c771d380ae" upstream="scarthgap"/>
   
 </manifest>
